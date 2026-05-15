@@ -192,6 +192,20 @@ def restore():
 
 
 # ─────────────────────────────────────────────────────────────
+#  API — RESET ELECTION
+# ─────────────────────────────────────────────────────────────
+
+@app.route("/api/reset", methods=["POST"])
+def reset():
+    global bc
+    bc = VotingBlockchain()
+    return jsonify({
+        "success": True,
+        "message": "Election restarted successfully!"
+    })
+
+
+# ─────────────────────────────────────────────────────────────
 #  ENTRY POINT
 # ─────────────────────────────────────────────────────────────
 
@@ -200,4 +214,4 @@ if __name__ == "__main__":
     print("  🗳️  Blockchain E-Voting System")
     print("  🌐  http://localhost:5000")
     print("═" * 52 + "\n")
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)

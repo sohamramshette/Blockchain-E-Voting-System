@@ -215,3 +215,17 @@ if __name__ == "__main__":
     print("  🌐  http://localhost:5000")
     print("═" * 52 + "\n")
     app.run(host="0.0.0.0", port=5000, debug=True)
+
+
+# ─────────────────────────────────────────────────────────────
+#  API — RESET ELECTION
+# ─────────────────────────────────────────────────────────────
+
+@app.route("/api/reset", methods=["GET"])
+def reset():
+    global bc
+    bc = VotingBlockchain()
+    return jsonify({
+        "success": True,
+        "message": "Election restarted successfully!"
+    })

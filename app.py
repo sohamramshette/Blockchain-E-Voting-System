@@ -15,10 +15,10 @@ app = Flask(__name__, template_folder=os.path.join(os.path.dirname(__file__), 't
 bc = VotingBlockchain()
 
 CANDIDATES = [
-    {"id": "A", "name": "Alice Johnson",  "party": "Progress Party", "color": "#3b82f6"},
-    {"id": "B", "name": "Bob Williams",   "party": "Liberty Union",  "color": "#ef4444"},
-    {"id": "C", "name": "Carol Martinez", "party": "Green Future",   "color": "#22c55e"},
-    {"id": "D", "name": "David Chen",     "party": "United Front",   "color": "#f59e0b"},
+    {"id": "A", "name": "Soham",  "party": "Progress Party", "color": "#3b82f6"},
+    {"id": "B", "name": "Anuraj",   "party": "Liberty Union",  "color": "#ef4444"},
+    {"id": "C", "name": "Kunal", "party": "Green Future",   "color": "#22c55e"},
+    {"id": "D", "name": "Prashant",     "party": "United Front",   "color": "#f59e0b"},
 ]
 
 CANDIDATE_MAP = {c["id"]: c for c in CANDIDATES}

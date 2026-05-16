@@ -16,7 +16,7 @@ bc = VotingBlockchain()
 
 CANDIDATES = [
     {"id": "A", "name": "Soham",  "party": "Progress Party", "color": "#3b82f6"},
-    {"id": "B", "name": "Anuraj",   "party": "Liberty Union",  "color": "#ef4444"},
+    {"id": "B", "name": "Anuj",   "party": "Liberty Union",  "color": "#ef4444"},
     {"id": "C", "name": "Kunal", "party": "Green Future",   "color": "#22c55e"},
     {"id": "D", "name": "Prashant",     "party": "United Front",   "color": "#f59e0b"},
 ]

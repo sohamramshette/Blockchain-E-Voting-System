@@ -22,24 +22,6 @@ The project demonstrates how blockchain can improve trust, transparency, and int
 
 ---
 
-# 📷 Screenshots
-
-> Add your project screenshots here.
-
-| Home | Authentication |
-|------|---------------|
-| ![](screenshots/home.png) | ![](screenshots/auth.png) |
-
-| Voting | Explorer |
-|------|---------|
-| ![](screenshots/voting.png) | ![](screenshots/explorer.png) |
-
-| Results | Security |
-|------|---------|
-| ![](screenshots/results.png) | ![](screenshots/security.png) |
-
----
-
 # 🚀 Tech Stack
 
 ### Frontend

@@ -129,7 +129,7 @@ Blockchain-EVoting/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/Blockchain-EVoting-System.git
+git clone https://github.com/sohamramshette/Blockchain-EVoting-System.git
 ```
 
 ### Move into Project
